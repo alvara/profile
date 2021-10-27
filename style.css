@@ -1,0 +1,139 @@
+html {
+  background-image: url("./images/simon-lee-zft-W1kVEhg-unsplash-min.jpeg");
+  background-size: cover;
+  background-position: 0% 0%;
+  background-color: #aec7cc;
+  color: #45484b;
+  backdrop-filter: blur(2px);
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    max-width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 90%;
+  }
+
+}
+
+.container {
+  background-color: rgba(250,250,250,0.3);
+  /* margin: 50px 50px; */
+  padding: 20px;
+  border-radius: 40px;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 800px;
+  backdrop-filter: blur(10px);
+  margin: 50px auto;
+}
+
+.card {
+  background-color: rgba(250,250,250,0.8);
+  padding: 50px 15px;
+  margin: 50px 30px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 1px 3px 5px rgba(50,50,50,0.1);
+  backdrop-filter: opacity(90%) !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Work Sans', sans-serif;
+  color: #077ec0;
+}
+
+h1 {
+  font-size: 2.2em;
+  line-height: 1em;
+}
+
+h3 {
+  color: #afaeb2;
+}
+
+#profile-img {
+  border-radius: 50%;
+  max-width: 100px;
+}
+
+.btn {
+  background-color:transparent;
+  border: 1px solid #077ec0;
+  padding: 12px 24px;
+  border-radius: 50px;
+  display: inline-block;
+  width: 150px;
+}
+
+.btn:hover {
+  background-color: #077ec0;
+  color: white;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.list {
+  padding-left: 0;
+  list-style: none;
+
+}
+.list li { 
+  display: inline-block;
+  padding: 10px;
+  
+}
+
+.list li a {
+  font-size: 5em;
+  color: #064669;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+}
+
+.footer a {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #077ec0;
+}
+
+a:hover {
+  color: #e2e2e2;
+  transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.fade-in-fast {
+	animation: fadeIn 1s ease-in;
+  	opacity: 1;
+}
+
+.fade-in-slow {
+	animation: fadeIn 0.8s ease-in;
+  	opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
+}
